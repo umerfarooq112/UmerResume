@@ -7,24 +7,24 @@
   <title>TheCodingLife</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="custom.scss">
+  <link rel="stylesheet" href="/custom.css">
 </head>
 
 <body>
   <header>
     <div class="py-10 container mx-auto font-Poppins font-light">
       <div class="flex items-center justify-between ">
-        <div class="flex items-center ">
-          <p class="rounded-full text-3xl text-white  h-10 w-10  bg-green-400 flex items-center justify-center ">
+        <div class="flex  items-center ">
+          <p class="rounded-full text-3xl text-white ml-2 h-10 w-10  bg-green-400 flex items-center justify-center ">
             U
           </p>
           <h2 class="ml-2 font-bold text-xl">Umer </h2>
           <h2 class="ml-1 text-xl"> Farooq</h2>
         </div>
-        <div class="flex text-sm text-gray-400">
-          <p class="mr-8 font-normal">About me</p>
-          <p class="mr-8">Contact</p>
-          <p class="mr-8">Services</p>
+        <div class="flex text-sm text-gray-400 hidden sm:flex ">
+          <a class="mr-8 font-normal cursor-pointer hover:text-green-300 transition duration-300" href="#test1">About me</a>
+          <a class="mr-8 font-light cursor-pointer hover:text-green-300 transition duration-300t">Contact</a>
+          <a class="mr-8 font-light cursor-pointer hover:text-green-300 transition duration-300">Services</a>
         </div>
       </div>
     </div>
@@ -42,15 +42,15 @@
         <h1
           class="title-font  text-lg mb-4 font-light text-gray-400 animate__animated animate__bounce animate__delay-2s  animate__repeat-2">
           Laravel Developer</h1>
-        <h1 class="title-font   text-4xl mb-4 font-bold text-gray-900 animate__animated animate__fadeInRight">Umer
+        <h1 class="title-font   text-4xl mb-4 font-bold text-gray-900  animate__animated animate__fadeInRight">Umer
           Farooq</h1>
 
         <p class="mb-8  text-sm leading-relaxed font-light text-gray-500 ">Copper mug try-hard pitchfork pour-over
           freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag
           selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
         <div class="flex justify-center">
-          <button
-            class="inline-flex  bg-white border border-green-400 py-2 px-9 transition  duration-500 text-black focus:outline-none hover:bg-green-400 hover:text-white rounded-full text-lg">Github</button>
+          <a href="https://github.com/umerfarooq112" target="_blank"
+            class="inline-flex cursor-pointer  bg-white border border-green-400 py-2 px-9 transition  duration-500 text-black focus:outline-none hover:bg-green-400 hover:text-white rounded-full text-lg">Github</a>
           <button
             class="ml-4 inline-flex text-gray-700   bg-white border border-gray-400 transition  duration-500  py-2 px-9 focus:outline-none hover:bg-green-400 hover:text-white hover:border-green-400 rounded-full text-lg">LinkedIn</button>
         </div>
@@ -66,8 +66,8 @@
    88   888888  YboodP 88  88 88  Y8 88  YboodP dP""""Yb 88ood8     8bodP' 88  Yb 88 88ood8 8bodP' 8bodP'     
  
 -->
-  <section class="mt-24  " style="background-color: rgb(253, 253, 253);">
-    <div class=" grid grid-cols-2   container mx-auto   gap-4 ">
+  <section class="mt-24 " id="test1"  style="background-color: rgb(253, 253, 253);">
+    <div class=" grid md:grid-cols-2 grid-cols-1   container mx-auto   gap-4 " >
       <div>
         
 
@@ -170,7 +170,7 @@
  88     88  Yb  YbodP  88     888888 8bodP' 8bodP' 88  YbodP  88  Y8 dP""""Yb 88ood8     8bodP' 88  Yb 88 88ood8 88ood8 8bodP' 
  
 -->
-      <div class="mt-16">
+      <div class="mt-16 text-poppins font-light">
        
 
         <p class="text-4xl mt-9 text-center font-Poppins  ">
@@ -180,46 +180,61 @@
         <hr class=" h-1 mx-auto bg-green-400 mt-2 w-24 mb-7"> 
 
 
-        <div class="flex  justify-around">
+        <div class="flex  justify-around mb-6">
 
-          <div id="circle" class="circle relative w-24 ">
+          <div id="circle" class="circle relative w-32 text-center ">
   
-            <div class="absolute left-10 top-10 text-4xl">
+            <div class="absolute left-10 top-10 text-4xl font-normal">
                 90
             </div>
 
-            <span class="text-poppins">Communication Skills</span>
+            <p class="text-gray-600 mt-3">Communication Skills</p>
   
           </div>
-          <div id="circle" class=" circle relative w-24 ">
+
+
+          <div id="circle" class=" circle relative w-32 text-center ">
   
             <div class="absolute left-10 top-10 text-4xl">
                 98
             </div>
 
-            Team work
+           <p class="text-gray-600 mt-3">
+
+             Team work
+           </p>
   
           </div>
         </div>
-        <div class="flex  justify-around">
 
-          <div id="circle" class="circle relative w-24 ">
-  
-            <div class="absolute left-10 top-10 text-4xl">
-                98
+
+        <div class="flex  justify-around  text-center">
+
+          <div class="bg-green-">
+          <div id="circle" class="circle  relative  ">
+
+
+            
+            <div class="absolute  left-10 top-10 text-4xl">
+              98
             </div>
-
-            Communication Skills
+            
+          </div>
+          <p class="text-gray-600 mt-3 text-center ">Technical Skills</p>
+            
   
           </div>
-          <div id="circle" class=" circle relative w-24 mb-24 ">
-  
-            <div class="absolute left-10 top-10 text-4xl ">
-                98
+          
+          <div id="" class="  ">
+            <div class="circle relative w-32 ">
+
+              <div class="absolute left-10  top-10 text-4xl ">
+                  98
+              </div>
+              <p class="text-gray-600 mt-3 text-center mb-16">Creativity</p>
             </div>
 
-            Team work
-  
+            
           </div>
         </div>
 
